@@ -1,0 +1,117 @@
+/* General styles for the cart items container */
+.cartitems {
+    margin: 100px 170px; /* Margin around the cart items */
+}
+
+/* Horizontal rule styling */
+.cartitems hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+/* Main format for cart items */
+.cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr; /* Define grid columns */
+    align-items: center; /* Align items vertically */
+    gap: 75px; /* Spacing between grid items */
+    padding: 20px 0px; /* Padding for grid items */
+    color: #454545; /* Text color */
+    font-size: 18px; /* Font size */
+    font-weight: 600; /* Font weight */
+}
+
+/* Individual cart item format */
+.cartitems-format {
+    font-size: 17px; /* Font size */
+    font-weight: 500; /* Font weight */
+}
+
+/* Styling for the product icon */
+.carticon-product-icon {
+    height: 62px; /* Icon height */
+}
+
+/* Styling for the remove icon */
+.cartitems-remove-icon {
+    width: 15px; /* Icon width */
+    margin: 0px 40px; /* Margin around the icon */
+    cursor: pointer; /* Cursor style */
+}
+.caritems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: white;
+}
+
+/* Styles for the cart items section below */
+.cartitems-down {
+    display: flex; /* Flex container */
+    margin: 100px 0px; /* Margin */
+}
+
+/* Styles for the total section */
+.cartitems-total {
+    flex: 1; /* Take remaining space */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Arrange items in a column */
+    margin-right: 200px; /* Margin right */
+    gap: 40px; /* Spacing between items */
+}
+
+/* Styles for individual total items */
+.cartitems-total-item {
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Space items evenly */
+    padding: 15px 0px; /* Padding */
+}
+
+/* Styles for the total button */
+.cartitems-total button {
+    width: 262px; /* Button width */
+    height: 58px; /* Button height */
+    outline: none; /* Remove outline */
+    border: none; /* Remove border */
+    background: #ff5a5a; /* Button background color */
+    color: #fff; /* Text color */
+    font-weight: 600; /* Font weight */
+    cursor: pointer; /* Cursor style */
+}
+
+/* Styles for the promo code section */
+.cartitems-promocode {
+    flex: 1; /* Take remaining space */
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Font weight */
+}
+
+/* Styles for the promo code input box */
+.cartitems-promobox {
+    width: 504px; /* Box width */
+    margin-top: 15px; /* Margin top */
+    padding-left: 20px; /* Padding left */
+    height: 58px; /* Box height */
+    background: #eaeaea; /* Background color */
+}
+
+/* Styles for the promo code input */
+.cartitems-promobox input {
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background: transparent; /* Transparent background */
+    font-size: 16px; /* Font size */
+    width: 330px; /* Input width */
+    height: 50px; /* Input height */
+}
+
+/* Styles for the promo code button */
+.cartitems-promobox button {
+    width: 170px; /* Button width */
+    height: 58px; /* Button height */
+    font-size: 16px; /* Font size */
+    background: black; /* Button background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Cursor style */
+}
